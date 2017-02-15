@@ -1,0 +1,10 @@
+framework module PerfectUI {
+  umbrella header "PerfectUI.h"
+
+  export *
+  module * { export * }
+}
+
+module PerfectUI.Swift {
+    header "PerfectUI-Swift.h"
+}
